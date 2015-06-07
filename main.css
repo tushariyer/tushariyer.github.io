@@ -76,6 +76,9 @@ body{
 .coin{
     width: inherit;
 }
+.bannerh{
+	height: 80%;
+}
 .imgwrapper{
     width: 100%;
     margin: 0 auto;
