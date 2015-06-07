@@ -37,13 +37,14 @@ body{
 	line-height: 300px;
 }
 #fillerOne{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
     margin: 0 auto;
     color: 333332;
+    background-color: #16193b;
 }
 #fillerOne p{
 	width: 75%;
@@ -52,6 +53,81 @@ body{
 	padding-bottom: 5px;
     height: auto;
     color: #add5f7;
+}
+#about{
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+    margin: 0 auto;
+    background-color: #16193b;
+}
+#profile{
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+    margin: 0 auto;
+    background-color: #16193b;
+}
+#gallery{
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+    margin: 0 auto;
+    background-color: #16193b;
+}
+#stuff{
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+    margin: 0 auto;
+    background-color: #16193b;
+}
+#contactmessage{
+    padding: 30px;
+}
+#contact{
+	width: 100%;
+    background-color: #1f1f1f;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+fieldset{
+    display: table;
+    border-radius: 10px;
+}
+#eform{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#eform label{
+    display: table-cell;
+    margin-left: 20px;
+}
+#eform input{
+    display: table-cell;
+}
+#buttondiv{
+    padding: 10px;
+}
+legend{
+    color: #ffffff;
+    border-radius: 0.3em;
+}
+.lbl{
+    padding-left:40px;
 }
 .badgewrapper{
     padding-top: 20px;
@@ -71,7 +147,7 @@ body{
 .header{
 	width:100%;
 	height:300px;
-	background:#333;
+	background:#1f1f1f;
 }
 .coin{
     width: inherit;
@@ -189,8 +265,8 @@ body{
 	-moz-box-shadow: 0px 0px 8px 0px #000000;
 	box-shadow: 0px 0px 8px 0px #000000;
 	/*transparent background*/
-	background-color: rgba(1, 1, 1, 0.8);
-	color: rgba(1, 1, 1, 0.8);
+	background-color: rgba(1, 30, 123, 0.72);
+	color: rgba(1, 30, 123, 0.72);
 }
 #navigation a {
 	font-size: 14px;
@@ -220,7 +296,7 @@ body{
 	width: auto;
 }
 .searchForm input {
-	background-color: rgba(1, 1, 1, 0.8); 
+	background-color: rgba(3, 43, 175, 0.06);
 	font-size: 12px;
 	margin-top: 0px; 
 	color: #ffffff; 
@@ -240,6 +316,19 @@ body{
 	margin: auto;
 	padding: 15px;
 	border-radius: 10px;
+}
+#buttondiv input{
+    background-color: rgba(3, 43, 175, 0.06);
+    color: #ffffff;
+	border: 0.3px solid #ffffff; 
+	text-transform: lowercase;
+	letter-spacing: 1px; 
+	padding: 4px 8px;
+	width: auto;
+	font-family: calibri, helvetica, arial, sans-serif;
+	text-align: center;
+	border-radius: 0.3em;
+    font-size: 12px;
 }
 #searchButton {
 	height: 14px; vertical-align: top;

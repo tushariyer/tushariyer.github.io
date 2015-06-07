@@ -22,10 +22,10 @@
 				</div>
 				<ul id="nlist">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="profile.html">Profile</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Profile</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="stuff.html">Stuff</a></li>
+					<li><a href="#">Stuff</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li id="iblock">
 						<form action="/search" method="get" class="searchForm" id="">
@@ -90,6 +90,44 @@
                             <img class="ibadg" id="pr" src="images/contact/wordpress.png" width="40" height="40">
                         </a>
                     </div>
+                </div>
+                <div id="eform" class="eform" name="myform">
+                    <h2 id="contactmessage" style="color: #ffffff;">Want to get in touch? Leave your details below, I'll get back to you soon.</h2>
+                    <br>
+                    <form name="signup" method="post" id="contactForm" action="MAILTO:tushariyer@gmail.com">
+                        <fieldset id="required">
+                            <legend id="UserInfo">Your Information</legend>
+                            <p id="firstName" class="fP">
+                                <label class="lbl">First Name</label>
+                                <input type="text" id="fN" name="FirstName" required>
+                            </p>
+                            <p id="lastName" class="fP">
+                                <label class="lbl">Last Name</label>
+                                <input type="text" id="lN" name="LastName" required>
+                            </p>
+                            <p id="email" class="fP">
+                                <label class="lbl">Email ID</label>
+                                <input type="email" id="email" name="Email" onchange="validateEmail()" required>
+                            </p>
+                            <p id="telNum" class="fP">
+                                <label class="lbl">Telephone No.</label>
+                                <input type="number" id="telnum" min="1000000000" name="Telephone-No." onkeypress='return event.charCode >= 48 && event.charCode
+                                                                                                                   <= 57' max-length="10">
+                            </p>
+                        </fieldset>
+                        <fieldset id="mostlyoptional">
+                            <legend id="moreInfo">Additional Information</legend>
+                            <p id="anymore?" class="fP">
+                                <label class="lbl">Comments/Questions</label>
+                                <textarea cols="30" rows="8" id="comment" name="Questions/Comments" wrap="hard"></textarea>
+                            </p>
+                        </fieldset>
+                        <!--Submit/Clear-->
+                        <div id="buttondiv">
+                            <input type="submit" class="button" name="submit" value="Submit">
+                            <input type="reset" class="button" name="reset" value="Clear Fields">
+                        </div>
+                    </form>
                 </div>
 			</div>
 			<div class="footer" id="bottom">
