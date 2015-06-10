@@ -1,2 +1,4 @@
 # tushariyer.github.io
-Tushar Iyer
+By Tushar Iyer
+
+This repository is just to help me develop my own website. I can push changes from my laptop directly and view them live. It also enables a more thorough way to test the website on different devices.
