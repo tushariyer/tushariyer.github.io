@@ -29,7 +29,7 @@ h1{
 	border-radius: 5px;
 }
 .sch{
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0.8);
 	border: none;
 	color: #ffffff;
 	margin-left: 0px 2px;
@@ -37,11 +37,11 @@ h1{
     width: 100%;
     
     /*Transparencym in addition to rgba value in background-color -FIX FOR SAFARI-*/
-    opacity: 0.5;
+    /*opacity: 0.5;
     -khtml-opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    -moz-opacity: 0.5;
+    -moz-opacity: 0.5;*/
 }
 #find_msg{
     font-size: 10px;
