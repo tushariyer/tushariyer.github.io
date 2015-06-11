@@ -87,10 +87,12 @@ body{
 	height: auto;
 	padding-left: 10px;
 	padding-right: 10px;
+    text-shadow: 18px 18px 15px #000000;
 	padding-top: 5px;
     margin: 0 auto;
     color: 333332;
     background-color: #16193b;
+    background-image:url(images/banners/helloBack.png);
 }
 #fillerOne p{
 	width: 75%;
