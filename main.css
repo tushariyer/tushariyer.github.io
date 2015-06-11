@@ -30,6 +30,8 @@ h1{
 }
 .sch{
 	background-color: rgba(27,27,27,0);
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
 	border: none;
 	color: #ffffff;
 	margin-left: 0px 2px;
