@@ -30,13 +30,18 @@ h1{
 }
 .sch{
 	background-color: rgba(27,27,27,0);
-    opacity: 0.5;
-    -khtml-opacity: 0.5;
 	border: none;
 	color: #ffffff;
 	margin-left: 0px 2px;
 	text-align: center;
     width: 100%;
+    
+    /*Transparencym in addition to rgba value in background-color*/
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
 }
 #find_msg{
     font-size: 10px;
