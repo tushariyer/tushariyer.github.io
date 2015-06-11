@@ -3,6 +3,31 @@
 	margin:0px;
 	padding:0px;
 }
+.chaise{
+	background-color: rgba(20,20,20,0);
+	border-radius: 15px;
+	border: none;
+	color: #FFFFFF;
+	padding: 2.5px 4px;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+#findme{
+	text-align: center;
+}
+#findwindow{
+	border-radius: 5px;
+}
+.sch{
+	background-color: rgba(27,27,27,0.2);
+	border: none;
+	color: #ffffff;
+	margin-left: 2px;
+	text-align: center;
+}
+.hideme{
+	display: none;
+}
 body{
 	height: auto;
     width: auto;
