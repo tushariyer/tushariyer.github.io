@@ -280,10 +280,10 @@ legend{
 	border-bottom: 1px solid #2a72ff;
 }
 .mlogo a:hover{
-    border-bottom: none;
+    border-bottom: none !important;
 }
 .hldr: hover{
-    border-bottom: none;
+    border-bottom: none !important;
 }
 #nlist{
 	list-style-type:none;
