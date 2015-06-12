@@ -326,6 +326,7 @@ legend{
 }
 #nlist li{
 	display: inline;
+	min-width: 30px;
 }
 #iblock{
 	float: right;
