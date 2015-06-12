@@ -85,8 +85,6 @@ body{
 #fillerOne{
 	width: 100%;
 	height: auto;
-	padding-left: 10px;
-	padding-right: 10px;
     text-shadow: 18px 18px 15px #000000;
 	padding-top: 5px;
     margin: 0 auto;
@@ -112,8 +110,6 @@ body{
 #profile{
 	width: 100%;
 	height: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 5px;
     margin: 0 auto;
     background-color: #16193b;
@@ -121,8 +117,6 @@ body{
 #gallery{
 	width: 100%;
 	height: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 5px;
     margin: 0 auto;
     background-color: #16193b;
@@ -130,8 +124,6 @@ body{
 #stuff{
 	width: 100%;
 	height: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 5px;
     margin: 0 auto;
     background-color: #16193b;
@@ -143,8 +135,6 @@ body{
 	width: 100%;
     background-color: #1f1f1f;
 	height: auto;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 5px;
     margin: 0 auto;
     color: #ffffff;
