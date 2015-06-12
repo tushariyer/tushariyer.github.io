@@ -2,8 +2,9 @@
 <html lang="en-US">
 	<head>
 		<title>Tushar Iyer</title>
-		<link rel="stylesheet" href="main.css" type="text/css">
-        	<link rel="icon" href="images/icon/favicon.png" type="image/x-icon">
+        <link rel="icon" href="images/icon/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="css/gallery.css" type="text/css">
 		<style type="text/css">
 		</style>
 		
@@ -13,6 +14,12 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/smoothscroll.js"></script><!---Sourced form DWuser.com--->
         <script class="hideme" type="text/javascript" language="JavaScript" src="js/ctrl+f.js"></script>
+        
+        <script type="text/javascript">
+            function progress(){
+                alert("Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven't found them yet.\n\nPlease come back later!\n\n:)");
+            }
+        </script>
         
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,8 +70,14 @@
                 <p id="plctxt">Include LinkedIn/Resumé link somewhere.</p>
             </div>
             <div id="gallery">
-            	<h1 id="plctxt">Gallery: IMAGE-COLLAGE HERE</h1>
-            	<h1 id="plctxt">CONTENT HERE THAT LINKS TO THE GALLERY</h1>
+                <!--
+                /**** Original Script by Bryan Moats, Mike Dornseif, Griffin Moore, Andrea Austoni, Jack Hughes, Jeremy Fryc ****/ -> Source of Interactive
+                                                                                                                                                Gallery.
+                -->
+            	<div class="imban">
+                    <p class="ig-link" id="plctxt"><a href="#gallery" onclick="progress();">view the full gallery</a></p>
+                </div>
+                
             </div>
             <div id="sbanner" class="header">
                 <h1 id="plctxt">Stuff: IMAGE HERE</h1>

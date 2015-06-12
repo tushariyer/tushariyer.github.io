@@ -125,14 +125,43 @@ body{
 }
 #gallery{
 	width: 100%;
+    height: auto;
+	padding-top: 5px;
+    margin: 0 auto;
+    background-color: #16193b;
+    text-align: center;
+}
+.imban{
+    background-image: url(images/banners/gallery.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 560px;
+    margin: 0 auto;
+    text-align: right;
+}
+.imban a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.imban p{
+    float: right;
+    padding-top: 200px;
+    padding-right: 15px;
+}
+.imban a:hover{
+	color: #2a72ff;
+	border-bottom: 1px solid #2a72ff;
+}
+#stuff{
+	width: 100%;
 	height: auto;
 	padding-top: 5px;
     margin: 0 auto;
     background-color: #16193b;
 }
-#stuff{
+#cbanner{
 	width: 100%;
-	height: auto;
+	height: 300px;
 	padding-top: 5px;
     margin: 0 auto;
     background-color: #16193b;
@@ -216,6 +245,7 @@ legend{
 .smedia{
     height: inherit;
     width: 100%;
+    background-attachment: fixed;
 }
 .container{
 	width:100%;
