@@ -148,6 +148,20 @@ body{
     padding-top: 200px;
     padding-right: 15px;
 }
+#captionn{
+    float: left;
+    padding-left: 20px;
+}
+.link{
+    float: left;
+    font-size: 28px;
+    text-shadow: 4px 4px 4px #2A77FF;
+    text-transform: none;
+}
+#link2{
+    font-size: 14px;
+    margin-top: -50px;
+}
 .imban a:hover{
 	color: #2a72ff;
 	border-bottom: 1px solid #2a72ff;
