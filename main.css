@@ -51,7 +51,7 @@ h1{
 }
 body{
 	height: auto;
-    width: auto;
+    width: 100%;
 	font-family: calibri, helvetica, arial, sans-serif;
 	font-size: 12px;
 	text-transform: lowercase;
