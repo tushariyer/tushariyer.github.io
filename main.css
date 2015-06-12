@@ -90,7 +90,17 @@ body{
     margin: 0 auto;
     color: 333332;
     background-color: #16193b;
-    background-image:url(images/banners/helloBack.png);
+    background-image: url(images/banners/helloBack.png);
+    background-attachment: fixed;
+}
+#tldheader{
+    background-image: url(images/banners/helloBack.png);
+    background-attachment: fixed;
+}
+.TILg{
+    margin-top: 40px;
+    box-shadow: 5px;
+    margin-bottom: -30px;
 }
 #fillerOne p{
 	width: 75%;
