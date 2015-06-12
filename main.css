@@ -89,7 +89,7 @@ body{
 	padding-top: 5px;
     margin: 0 auto;
     color: 333332;
-    background-color: #16193b;
+    /*background-color: #16193b;*/
     background-image: url(images/banners/helloBack.png);
     background-attachment: fixed;
 }
@@ -114,7 +114,7 @@ body{
 	height: auto;
 	padding-top: 5px;
     margin: 0 auto;
-    background-color: rgba(25,25,59,0);
+    background-color: #16193b;
 }
 #profile{
 	width: 100%;
