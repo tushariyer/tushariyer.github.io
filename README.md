@@ -6,7 +6,7 @@ This repository is just to help me develop my own website. I can push changes fr
 
 Patch 1.2.2.4 of Search field after pushing update 1.4.2 has remedied the transparency/color issues in the search bar. 11/06/2015 @ 11:17 PM
 
-Currently working on - SU-1.4.3: Color Correction & Addition of pseudo-elements.
+Currently working on - SU-1.4.3: Color Correction & Addition of pseudo-elements.Also trying to find suitable images for banners
 
 Updates being worked on for SU-1.5 and associated patches:
  - Banners
