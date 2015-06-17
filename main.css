@@ -428,6 +428,8 @@ legend{
 #searchButton {
 	height: 14px; vertical-align: top;
 	margin-right: 15px;
+	cursor: pointer;
+	cursor: hand;
 }
 /*WHEN SCREEN IS SMALLER THAN 680PX*/
 @media (max-width:690px){
