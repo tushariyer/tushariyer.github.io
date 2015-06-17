@@ -1,0 +1,32 @@
+<!--/*Hey this is Tushar and this is my print media query sheet.*/-->
+body{
+    background-color: #ffffff;
+    color: #000000;
+}
+header{
+    background-color: #ffffff;
+    color: #000000;
+}
+#content{
+    background-color: #ffffff;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6, a, a:active, a:hover, a:link, a:visited, b, strong, t, p, span{
+    color: #000000;
+}
+div{
+    background-color: #ffffff;
+    color: #000000;
+}
+footer{
+    background-color: #ffffff;
+    color: #000000;
+}
+#footercompany{
+    color: #000000;
+}
+img{
+  filter: gray; 
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
