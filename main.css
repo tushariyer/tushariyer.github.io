@@ -411,8 +411,8 @@ legend{
 	border-radius: 10px;
 }
 #buttondiv input{
-    background-color: rgba(3, 43, 175, 0.06);
-    color: #ffffff;
+    	background-color: rgba(3, 43, 175, 0.06);
+    	color: #ffffff;
 	border: 0.3px solid #ffffff; 
 	text-transform: lowercase;
 	letter-spacing: 1px; 
@@ -421,7 +421,9 @@ legend{
 	font-family: calibri, helvetica, arial, sans-serif;
 	text-align: center;
 	border-radius: 0.3em;
-    font-size: 12px;
+	font-size: 12px;
+	cursor: pointer;
+	cursor: hand;
 }
 #searchButton {
 	height: 14px; vertical-align: top;
