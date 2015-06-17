@@ -25,6 +25,11 @@ footer{
 #footercompany{
     color: #000000;
 }
+@media print{
+    @page {
+        size: landscape
+    }
+}
 img{
   filter: gray; 
   filter: grayscale(1);
