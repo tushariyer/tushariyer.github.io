@@ -11,6 +11,8 @@ h1{
     padding-right: 15px;
     height: 40%;
     width: 40%;
+	cursor: pointer;
+	cursor: hand;
 }
 .chaise{
 	background-color: rgba(20,20,20,0);
