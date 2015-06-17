@@ -368,6 +368,9 @@ legend{
 	color: #2a72ff;
 	border-bottom: 1px solid #2a72ff;
 }
+#navigation a:active {
+	border-bottom: 0px solid #ffffff;
+}
 .mlogo a:hover{
     border-bottom: none !important;
 }
