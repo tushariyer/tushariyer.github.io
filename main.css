@@ -353,9 +353,9 @@ legend{
 	width: 100%;
 	color: #ffffff;
 	/*Adds shadow*/
-	-webkit-box-shadow: 0px 0px 8px 0px #000000;
-	-moz-box-shadow: 0px 0px 8px 0px #000000;
-	box-shadow: 0px 0px 8px 0px #000000;
+	-webkit-box-shadow: 0px 10px 50px 5px #000000;
+	-moz-box-shadow: 0px 10px 50px 5px #000000;
+	box-shadow: 0px 10px 50px 5px #000000;
 	/*transparent background*/
 	background-color: rgba(1, 30, 123, 0.72);
 	color: rgba(1, 30, 123, 0.72);
