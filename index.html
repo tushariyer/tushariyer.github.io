@@ -27,6 +27,21 @@
             }
         </script>
         
+        <!--NavBar Opacity--->
+        <script>
+            function helloNav(){
+                var x = document.getElementById("navbar");
+                //x.style.visibility = "visible";
+                x.style.opacity = "1";
+                
+            }
+            function goAway(){
+                var x = document.getElementById("navbar");
+                x.style.opacity = "0";
+            }
+        </script>
+<!--End NavBar Scripts--->
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -37,7 +52,7 @@
                     <a href="index.html"><img id="logoT" class="hldr" src="images/icon/favicon.png"></a>
 				</div>
 				<ul id="nlist">
-					<li><a href="#navbar" class="smoothScroll">Hello</a></li>
+					<li><a onclick="goAway();" href="#navbar" class="smoothScroll">Hello</a></li>
 					<li><a href="#abanner" class="smoothScroll">About</a></li>
 					<li><a href="#pbanner" class="smoothScroll">Profile</a></li>
 					<li><a href="#gallery" class="smoothScroll">Gallery</a></li>
@@ -51,15 +66,20 @@
 				</ul>
 			</div>
 		</div>
+<!--
 		<div id="navback">
 		</div>
+-->
 		<div class="wrapper">
 			<div id="tldheader" class="header tldBan">
 				<h1 id="plctxt"><img alt="TI-Logo" class="TILg" src="images/gallery/Tushar-Iyer---Logo.png"></h1>
 			</div>
 			<div id="fillerOne" class="tldBan"><!--Image taken from: http://hdw.eweb4.com/search/web/--->
 				<h1 style="font-size: 50px;">Hello, I'm <span style="text-transform: none;">T</span>ushar.</h1>
-				<h2 style="font-size: 25px;"id="plctxt">I'm currently a CS student. I love to create with pixels, and pretend to be a photographer. Let me show you show...</h2>
+				<h2 style="font-size: 25px;"id="plctxt">I'm currently a CS student. I love to create with pixels, and pretend to be a photographer.</h2>
+                <div id="sButton" class="grow hatch">
+                    <a class="smoothScroll" onclick="helloNav();" href="#abanner"><h4>Enter</h4></a>
+                </div>
 			</div>
             <div id="abanner" class="header">
                 <h1 id="plctxt">About: IMAGE HERE</h1>
@@ -193,7 +213,7 @@
 		            <a href="sitefeedback.html">Site Feedback</a> | 
 		            <a href="map.html">SiteMap</a> |  
                     <a href="sitelog.html">SiteLog</a> |  
-		            <a href="#navbar" class="smoothScroll">back to Top</a> 
+		            <a onclick="goAway();" href="#navbar" class="smoothScroll">back to Top</a> 
 		    </h6>
 		</footer>
 	</div>
