@@ -192,6 +192,7 @@ body{
     font-size: 28px;
     text-shadow: 4px 4px 4px #2A77FF;
     text-transform: none;
+    margin-left: 100px;
 }
 #link2{
     font-size: 14px;
@@ -204,6 +205,15 @@ body{
     -moz-transition: all 500ms ease-in-out;
     -webkit-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
+}
+.ig-link a{
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 100px;
+}
+#engorgio{
+    font-size: 14px;
 }
 #stuff{
 	width: 100%;
