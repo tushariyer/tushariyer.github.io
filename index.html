@@ -25,7 +25,10 @@
 
     <script type="text/javascript">
         function progress() {
-            alert("Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven't found them yet.\n\nPlease come back later!\n\n:)");
+            if (window.confirm('Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven\'t found them yet.\n\nUntil the gallery is rebuilt, click OK to check out my VSCO gallery!')) {
+                window.location.href = 'http://tushariyer.vsco.co/grid/1';
+            };
+//            alert("Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven't found them yet.\n\nUntil the gallery is rebuilt, click OK to check out my VSCO gallery at http://tushariyer.vsco.co/grid/1 !\n\n:)");
         }
     </script>
 
