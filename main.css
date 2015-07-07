@@ -152,6 +152,7 @@ body{
 }
 #aboutBanner{
     width: 100%;
+    height: 350px;
 }
 #profileBanner{
     background-repeat: no-repeat;
