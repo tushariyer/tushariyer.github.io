@@ -221,7 +221,10 @@ body{
     float: right;
     color: #ffffff;
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 100px;    
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 #engorgio{
     font-size: 14px;
@@ -281,10 +284,24 @@ legend{
     padding-top: 20px;
     height: 60px;
     margin: 0 auto;
+        
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 .fleft{
     width: 10%;
     float: left;
+        
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.ibadg{
+	    
+    -moz-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 .ibadg:hover{
     width: 43px;
