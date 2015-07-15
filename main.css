@@ -81,7 +81,7 @@ body{
 	font-size: 12px;
 	text-transform: lowercase;
 	letter-spacing: 1px; 
-    background-color: #333333;
+    background-color: #16193b;
 }
 #footercompany{
     text-decoration: none;
@@ -117,7 +117,7 @@ body{
     text-shadow: 18px 18px 15px #000000;
 	padding-top: 5px;
     margin: 0 auto;
-    color: 333332;
+/*    color: #333332;*/
     /*background-color: #16193b;*/
     background-image: url(images/banners/helloBack.png);
     background-attachment: fixed;
