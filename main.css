@@ -583,6 +583,9 @@ legend{
 	.filler{
 		width: 85%;
 	}
+    #plctxt{
+        visibility: hidden;
+    }
 	.navigation li{
 		width:100%;
 		border-bottom: 2px solid;
@@ -615,6 +618,10 @@ legend{
 	.filler{
 		width: 100%;
 	}
+    
+    #plctxt{
+        visibility: hidden;
+    }
 	.navigation li{
 		width:100%;
 		border-bottom: 2px solid;
