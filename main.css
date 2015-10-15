@@ -631,4 +631,7 @@ legend{
 	.ccle{
 		margin:10px auto;
 	}
+    .searchForm{
+        display: none;
+    }
 }
