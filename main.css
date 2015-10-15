@@ -583,7 +583,7 @@ legend{
 	.filler{
 		width: 85%;
 	}
-    #plctxt{
+    .noMobile{
         visibility: hidden;
     }
 	.navigation li{
@@ -619,7 +619,7 @@ legend{
 		width: 100%;
 	}
     
-    #plctxt{
+    .noMobile{
         visibility: hidden;
     }
 	.navigation li{
