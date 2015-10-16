@@ -23,19 +23,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 //onClick Plugins
 
-function navSee(){
-    var see = document.getElementById("navbar").style.visibility;
-    
-    see = "visible";
+function helloNav() {
+    var x = document.getElementById("navbar");
+    //x.style.visibility = "visible";
+    x.style.opacity = "1";
+
 }
 
-function navSeeHide(){
-    var see = document.getElementById("navbar").style.visibility;
-    
-    if (see = 'hidden'){
-        see = 'visible';
-    }
-    else if (see = 'visible'){
-        see = 'hidden';
-    }
+function goAway() {
+    var x = document.getElementById("navbar");
+    x.style.opacity = "0";
 }

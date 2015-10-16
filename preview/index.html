@@ -29,29 +29,37 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     <meta charset="utf-8">
 
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
     <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/IyerCSSThemeOne.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/IyerCSSDivStyler.css">
-    <link rel="stylesheet" type="text/css" href="IyerCSSThemePrint.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/IyerCSSThemePrint.css" media="only print">
+
+    <!--    CSS Plugin: Animations by Jusin Aguilar, some animations have been edited-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/animations.css">
 
     <!--THESE ARE SCRIPT LINKS FOR JAVASCRIPT AND JQUERY-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/smoothscroll.js"></script>
     <!---Sourced form DWuser.com--->
+
+    <script type="text/javascript" src="javascript/onClickPluginEvents.js"></script>
+    
 </head>
 
 <body>
     <div id="wrapper">
         <div id="navbar">
             <div id="navSectorOne" class="navSector">
-                <a href="index.html">
+                <a onclick="goAway();" href="index.html">
                     <img id="navLogo" alt="navLogo" src="images/icons/LogoFlat.png">
                 </a>
             </div>
             <div id="navSectorTwo" class="navSector">
                 <ul id="nlist">
-                    <li><a href="#intro" class="smoothScroll">intro</a></li>
+                    <li><a onclick="goAway();" href="#intro" class="smoothScroll">intro</a></li>
                     <li><a href="#about" class="smoothScroll">About</a></li>
                     <li><a href="#profile" class="smoothScroll">Profile</a></li>
                     <li><a href="#gallery" class="smoothScroll">Gallery</a></li>
@@ -62,14 +70,17 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         <div id="intro" class="divStandard smoothScroll">
             <div id="verticalDivider">
                 <div id="initials" class="introDivisions">
-                    <a href="index.html">
+                    <a onclick="goAway();" href="index.html">
                         <img src="images/pictures/LogoFlat.png" alt="initials" width="" height="">
                     </a>
+                    <br>
+<!--                    <h1 class="fadeIn" id="monNom">Tushar Iyer</h1>-->
                 </div>
-                <div id="enterSite" class="introDivisions">
-                    <a onclick="navSee()" id="enterButton" href="#about" class="smoothScroll">&nbsp;&nbsp;&nbsp;Enter&nbsp;&nbsp;&nbsp;</a>
+                <div id="enterSite" class="introDivisions fadeIn">
+                    <a onclick="helloNav();" id="enterButton" href="#about" class="smoothScroll">&nbsp;&nbsp;&nbsp;Enter Site&nbsp;&nbsp;&nbsp;</a>
                 </div>
-                <div id="contactBar" class="introDivisions">
+                <!-- The following SocialMedia badges are edited from stock badges from ShutterStock. --->
+                <div id="contactBar" class="introDivisions fadeIn">
                     <ul id="getInTouch">
                         <li class="inLine">
                             <a href="MAILTO:tushariyer@gmail.com">
@@ -134,13 +145,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                         <a href="sitefeedback.html">Site Feedback</a> |
                         <a href="map.html">SiteMap</a> |
                         <a href="sitelog.html">SiteLog</a> |
-                        <a href="#intro" class="smoothScroll">back to Top</a>
+                        <a onclick="goAway();" href="#intro" class="smoothScroll">back to Top</a>
                         </h6>
             </footer>
         </div>
     </div>
-
-    <script type="text/javascript" src="javascript/onClickPluginEvents.js" />
 </body>
 
 </html>
