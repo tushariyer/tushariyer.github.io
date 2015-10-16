@@ -21,20 +21,58 @@ IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#about{
-/*    background-image: url("images/bgThemes/diamonds.png");*/
+#aboutBanner {
+/*    Content*/
+}
+
+#about {
+    /*    background-image: url("images/bgThemes/diamonds.png");*/
     background-color: #1a1a1a;
 }
-#profile{
+
+#profileBanner {
+/*    Content*/
+}
+
+#profile {
     background-color: #1a1a1a;
 }
-#gallery{
+
+#galleryBanner {
+/*    Content*/
+/*    background-color: rgba(3, 3, 7, 0);*/
+}
+
+#gallery {
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    text-align: center;
+}
+#galleryNav{
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 50px;
+}
+#iList{
+    list-style-type: none;
+    display: block;
+    padding-top: 50px;
+}
+#iList li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#stuffBanner {
+/*    Content*/
+}
+
+#stuff {
     background-color: #1a1a1a;
 }
-#stuff{
-    background-color: #1a1a1a;
-}
-.banner{
+
+.banner {
     width: 100%;
     height: 250px;
     background-color: #030307;
