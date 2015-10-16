@@ -1,7 +1,7 @@
 /*
 The MIT License (MIT)
 
-Copyright (c) Thu Oct 15 2015 Tushar Iyer
+Copyright (c) Wed Jul 15 2015 Tushar Iyer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -21,21 +21,40 @@ IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#about{
-/*    background-image: url("images/bgThemes/diamonds.png");*/
-    background-color: #1a1a1a;
+<!--/*Hey this is Tushar and this is my print media query sheet.*/-->
+body{
+    background-color: #ffffff;
+    color: #000000;
 }
-#profile{
-    background-color: #1a1a1a;
+header{
+    background-color: #ffffff;
+    color: #000000;
 }
-#gallery{
-    background-color: #1a1a1a;
+#content{
+    background-color: #ffffff;
+    color: #000000;
 }
-#stuff{
-    background-color: #1a1a1a;
+h1, h2, h3, h4, h5, h6, a, a:active, a:hover, a:link, a:visited, b, strong, t, p, span{
+    color: #000000;
 }
-.banner{
-    width: 100%;
-    height: 250px;
-    background-color: #030307;
+div{
+    background-color: #ffffff;
+    color: #000000;
+}
+footer{
+    background-color: #ffffff;
+    color: #000000;
+}
+#footercompany{
+    color: #000000;
+}
+@media print{
+    @page {
+        size: landscape
+    }
+}
+img{
+  filter: gray; 
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
