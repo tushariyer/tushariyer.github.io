@@ -21,8 +21,11 @@ IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+
+/*About Division*/
+
 #aboutBanner {
-/*    Content*/
+    /*    Content*/
 }
 
 #about {
@@ -30,17 +33,23 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     background-color: #1a1a1a;
 }
 
+
+/*Profile Division*/
+
 #profileBanner {
-/*    Content*/
+    /*    Content*/
 }
 
 #profile {
     background-color: #1a1a1a;
 }
 
+
+/*Gallery Division*/
+
 #galleryBanner {
-/*    Content*/
-/*    background-color: rgba(3, 3, 7, 0);*/
+    /*    Content*/
+    /*    background-color: rgba(3, 3, 7, 0);*/
 }
 
 #gallery {
@@ -48,29 +57,39 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     margin: 0 auto;
     text-align: center;
 }
-#galleryNav{
+
+#galleryNav {
     width: 70%;
     margin: 0 auto;
     height: 200px;
     padding-top: 50px;
 }
-#iList{
+
+#iList {
     list-style-type: none;
     display: block;
     padding-top: 50px;
 }
-#iList li{
+
+#iList li {
     display: inline;
     padding-left: 30px;
     padding-right: 30px;
 }
+
+
+/*Stuff Division*/
+
 #stuffBanner {
-/*    Content*/
+    /*    Content*/
 }
 
 #stuff {
     background-color: #1a1a1a;
 }
+
+
+/*Common Standard*/
 
 .banner {
     width: 100%;
