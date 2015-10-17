@@ -379,7 +379,7 @@ footer a:hover {
 #notFound{
     width: 50%;
     margin: 0 auto;
-    height: 250px;
+    height: auto;
 }
 #return {
     text-decoration: none;
