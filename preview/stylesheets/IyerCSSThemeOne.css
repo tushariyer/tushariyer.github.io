@@ -186,7 +186,7 @@ a {
 
 #intro {
     background-color: #1a1a1a;
-/*    background-image: url(http://lorempixel.com/1600/900/abstract);*/
+    /*    background-image: url(http://lorempixel.com/1600/900/abstract);*/
 }
 
 
@@ -357,4 +357,38 @@ footer a:hover {
 
 .toUpper {
     text-transform: uppercase;
+}
+
+/
+/*GALLERY PAGE*/
+
+#content {
+    width: 100%s;
+    margin: 0 auto;
+    height: auto;
+}
+
+#message {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    color: #444444;
+    width: 70%;
+    height: 650px;
+}
+#notFound{
+    width: 50%;
+    margin: 0 auto;
+    height: 250px;
+}
+#return {
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+#return:hover {
+    color: #2a77ff;
+    border: 1px solid #2a77ff;
 }

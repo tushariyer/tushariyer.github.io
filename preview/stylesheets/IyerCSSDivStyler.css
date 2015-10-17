@@ -64,6 +64,37 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     height: 200px;
     padding-top: 50px;
 }
+#photoSpiel{
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 140px;
+    color: #444444;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#goGallery{
+    width: 100%;
+    margin: 0 auto;
+    height: 70%;
+}
+#goPhoto{
+    width: 15%;
+    margin: 0 auto;
+    color: #333333;
+    text-align: center;
+}
+#goPhoto a{
+    color: #444444;
+    text-decoration: none;
+    border: 1px solid #444444;
+    border-radius: 8px;
+}
+#goPhoto a:hover{
+    color: #2a77ff;
+    border: 1px solid #2a77ff;
+}
 
 #iList {
     list-style-type: none;
