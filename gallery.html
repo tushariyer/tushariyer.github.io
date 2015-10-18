@@ -1,94 +1,58 @@
-<!--
-The MIT License (MIT)
-
-Copyright (c) Wed Jul 15 2015 Tushar Iyer
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
-
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<title>Tushar Iyer | Gallery</title>
-        <link rel="icon" href="images/icon/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
-        <link rel="stylesheet" href="gallery.css" type="text/css">
-        <!---Tablet Response
-        <link rel="stylesheet" href="tablet_gui.css" media="only screen and (min-width:768px) and (max-width: 1024px)">
-        <!---Mobile Response
-        <link rel="stylesheet" href="mobile_gui.css" media="only screen and (max-width:768px)">
-        <!---Print Styles--->
-        <link rel="stylesheet" href="print_gui.css" media="only print">
-        <!--<link rel="stylesheet" href="css/gallery.css" type="text/css">-->
-		<style type="text/css">
-		</style>
-		
-		<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-		
-        <!--THESE ARE SCRIPT LINKS FOR JAVASCRIPT AND JQUERY-->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/smoothscroll.js"></script><!---Sourced form DWuser.com--->
-        <script class="hideme" type="text/javascript" language="JavaScript" src="js/ctrl+f.js"></script>
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<div id="navbar">
-			<div id="navigation">
-				<div id="logo" class="mlogo">
-                    <a href="index.html"><img id="logoT" class="hldr" src="images/icon/favicon.png"></a>
-				</div>
-				<ul id="nlist">
-					<li><a href="index.html#navbar" class="smoothScroll">Hello</a></li>
-					<li><a href="index.html#abanner" class="smoothScroll">About</a></li>
-					<li><a href="index.html#pbanner" class="smoothScroll">Profile</a></li>
-					<li><a href="index.html#gallery" class="smoothScroll">Gallery</a></li>
-					<li><a href="index.html#sbanner" class="smoothScroll">Stuff</a></li>
-					<li><a href="index.html#cbanner" class="smoothScroll">Contact</a></li>
-					<li id="iblock">
-						<form action="/search" method="get" class="searchForm" id="">
-                            <img class="edgy" src="images/searchIcon.png" onclick="show();" />
-						</form>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div id="navback">
-		</div>
-		<div class="wrapper">
-			<div id="fillerTwo">
-                <div id="gScaffolding">
-                
+
+<head>
+    <title>Tushar Iyer | Gallery</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/IyerCSSThemeOne.css">
+    <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
+
+    <style>
+        body,
+        #wrapper {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="content">
+            <div id="message">
+                <div id="notFound">
+                    <img src="images/pictures/exclaim.png" alt="ERROR!" width="" height="250">
                 </div>
-			</div>
-			<div class="footer" id="bottom">
-				<footer>
-                    <h6 id="footercompany">
-                        T.I. Design &copy; 2015. All Rights Reserved. | 
-                            <a href="ToS.html">Terms of Use</a> | 
-                            <a href="privpol.html">Privacy Policy</a> | 
-                            <a href="sitefeedback.html">Site Feedback</a> | 
-                            <a href="map.html">SiteMap</a> |  
-                            <a href="#navbar" class="smoothScroll">back to Top</a> 
-                    </h6>
-				</footer>
-			</div>
-		</div>
-	</body>
+                <br><br>
+                <h1 id="errorLabel">Gallery Not Found!</h1>
+                <br>
+                <br>
+                <br>
+                <h4 id="errorSubtext">
+                        The gallery has not yet been finished.<br>
+                        Click below to return to the main website.<br><br><br><br>
+                        Stay Tuned...
+                    </h4>
+                <br>
+                <br>
+                <a id="return" href="reloadHome.html">&nbsp;&nbsp;&nbsp;Return&nbsp;&nbsp;&nbsp;</a>
+            </div>
+        </div>
+        <div id="feet">
+            <footer>
+                <h6 id="footercompany">
+                            <span class="toUpper">T.I. D</span>esign &copy; 2015. All Rights Reserved. |
+                            <a href="ToS.html">Terms of Use</a> |
+                            <a href="privpol.html">Privacy Policy</a> |
+                            <a href="sitefeedback.html">Site Feedback</a> |
+                            <a href="map.html">SiteMap</a> |
+                            <a href="sitelog.html">SiteLog</a> |
+                            <a onclick="goAway();" href="#content" class="smoothScroll">back to Top</a>
+                            </h6>
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>

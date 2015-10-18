@@ -1,0 +1,186 @@
+/*
+The MIT License (MIT)
+
+Copyright (c) Thu Oct 15 2015 Tushar Iyer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+
+/*About Division*/
+
+#aboutBanner {
+    /*    Content*/
+}
+
+#about {
+    /*    background-image: url("images/bgThemes/diamonds.png");*/
+    background-color: #1a1a1a;
+}
+
+
+/*Profile Division*/
+
+#profileBanner {
+    /*    Content*/
+}
+
+#profile {
+    background-color: #1a1a1a;
+}
+
+
+/*Gallery Division*/
+
+#galleryBanner {
+    /*    Content*/
+    /*    background-color: rgba(3, 3, 7, 0);*/
+}
+
+#gallery {
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#galleryNav {
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 50px;
+}
+
+#photoSpiel {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 160px;
+    color: #444444;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#infoMe {
+    width: 100%;
+    margin: 0 auto;
+    height: 70%;
+}
+
+#aboutHeading {
+    text-align: center;
+    color: #444444;
+    padding-top: 10px;
+}
+
+#myProfile {
+    margin: 0 auto;
+    width: 60%;
+    /*    padding-top: 130px;*/
+    color: #555555;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#profHeading {
+    text-align: center;
+    color: #444444;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#aboutMe {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 130px;
+    color: #555555;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#profInfo {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 130px;
+    color: #555555;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#goGallery {
+    width: 100%;
+    margin: 0 auto;
+    height: 70%;
+}
+
+#goPhoto {
+    width: 15%;
+    margin: 0 auto;
+    color: #333333;
+    text-align: center;
+}
+
+#goPhoto a {
+    color: #444444;
+    text-decoration: none;
+    border: 1px solid #444444;
+    border-radius: 8px;
+}
+
+#goPhoto a:hover {
+    color: #2a77ff;
+    border: 1px solid #2a77ff;
+}
+
+#iList {
+    list-style-type: none;
+    display: block;
+    padding-top: 50px;
+}
+
+#iList li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*Stuff Division*/
+
+#stuffBanner {
+    /*    Content*/
+}
+
+#stuff {
+    background-color: #1a1a1a;
+}
+
+
+/*Common Standard*/
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background-color: #030307;
+}

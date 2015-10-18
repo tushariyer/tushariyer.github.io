@@ -1,275 +1,102 @@
-<!--
-The MIT License (MIT)
-
-Copyright (c) Wed Jul 15 2015 Tushar Iyer
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
-    <title>Tushar Iyer</title>
-    <link rel="icon" href="images/icon/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <!---Tablet Response
-        <link rel="stylesheet" href="tablet_gui.css" media="only screen and (min-width:768px) and (max-width: 1024px)">
-        <!---Mobile Response
-        <link rel="stylesheet" href="mobile_gui.css" media="only screen and (max-width:768px)">
-        <!---Print Styles--->
-    <link rel="stylesheet" href="print_gui.css" media="only print">
-    <!--<link rel="stylesheet" href="css/gallery.css" type="text/css">-->
+    <title>Tushar Iyer | Loading</title>
+
+    <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
+
+    <meta charset="utf-8">
     <style type="text/css">
+        body {
+            background-color: #1a1a1a;
+            padding: 250px;
+            margin: 0 auto;
+            text-align: center;
+            color: #333333;
+            font-family: Helvetica Nueue, Calibri, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        
+        #loadText {
+            padding-top: 20px;
+        }
+        
+        .sk-double-bounce {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            margin: 40px auto;
+        }
+        
+        .sk-double-bounce .sk-child {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #2a77ff;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-animation: sk-doubleBounce 2s infinite ease-in-out;
+            animation: sk-doubleBounce 2s infinite ease-in-out;
+        }
+        
+        .sk-double-bounce .sk-double-bounce2 {
+            -webkit-animation-delay: -1.0s;
+            animation-delay: -1.0s;
+        }
+        
+        @-webkit-keyframes sk-doubleBounce {
+            0%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+            50% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes sk-doubleBounce {
+            0%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+            50% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
     </style>
 
-    <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-
     <!--THESE ARE SCRIPT LINKS FOR JAVASCRIPT AND JQUERY-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+    <!---Sourced form DWuser.com--->
 
-    <script type="text/javascript">
-        function progress() {
-            if (window.confirm('Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven\'t found them yet.\n\nUntil the gallery is rebuilt, click OK to check out my VSCO gallery!')) {
-                window.location.href = 'http://tushariyer.vsco.co/grid/1';
-            };
-//            alert("Hello!\n\nUnfortunately the gallery is not yet up and running. Some of the pixels ran away and the police haven't found them yet.\n\nUntil the gallery is rebuilt, click OK to check out my VSCO gallery at http://tushariyer.vsco.co/grid/1 !\n\n:)");
-        }
-    </script>
+    <script type="text/javascript" src="javascript/onClickPluginEvents.js"></script>
 
-    <!--NavBar Opacity--->
+    <script type="text/javascript" src="javascript/preloader.js"></script>
+
     <script>
-        function helloNav() {
-            var x = document.getElementById("navbar");
-            //x.style.visibility = "visible";
-            x.style.opacity = "1";
-
-        }
-
-        function goAway() {
-            var x = document.getElementById("navbar");
-            x.style.opacity = "0";
-        }
+        setTimeout(function () {
+            window.location = 'home.html';
+        }, 5000);
     </script>
-    <!--End NavBar Scripts--->
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div id="navbar">
-        <div id="navigation">
-            <div id="logo" class="mlogo">
-                <a href="index.html"><img id="logoT" class="hldr" src="images/icon/favicon.png">
-                </a>
-            </div>
-            <ul id="nlist">
-                <li><a onclick="goAway();" href="#navbar" class="smoothScroll">Hello</a>
-                </li>
-                <li><a href="#abanner" class="smoothScroll">About</a>
-                </li>
-                <li><a href="#pbanner" class="smoothScroll">Profile</a>
-                </li>
-                <li><a href="#gallery" class="smoothScroll">Gallery</a>
-                </li>
-                <li><a href="#sbanner" class="smoothScroll">Stuff</a>
-                </li>
-                <li><a href="#cbanner" class="smoothScroll">Contact</a>
-                </li>
-                <li id="iblock">
-                    <form action="search" method="get" class="searchForm" id="">
-                        <img class="edgy" src="images/searchIcon.png" onclick="show();" />
-                    </form>
-                </li>
-            </ul>
-        </div>
+
+
+    <div class="sk-double-bounce">
+        <div class="sk-child sk-double-bounce1"></div>
+        <div class="sk-child sk-double-bounce2"></div>
     </div>
-    
-<!--
-		<div id="navback">
-		</div>
--->
-
-    <div class="wrapper">
-        <div id="tldheader" class="header tldBan">
-            <h1 id="plctxt"><img alt="TI-Logo" class="TILg" src="images/gallery/Tushar-Iyer---Logo.png"></h1>
-        </div>
-        <div id="fillerOne" class="tldBan">
-            <!--Image taken from: http://hdw.eweb4.com/search/web/--->
-            <h1 style="font-size: 50px;" class="noMobile">Hello, I'm <span style="text-transform: none;">T</span>ushar.</h1>
-            <h2 style="font-size: 25px;" class="noMobile" id="plctxt">I'm currently a CS student. I love to create with pixels, and pretend to be a photographer.</h2>
-            <div id="sButton" class="grow hatch">
-                <a class="smoothScroll" onclick="helloNav();" href="#abanner"><h4>Enter</h4></a>
-            </div>
-        </div>
-        <div id="abanner" class="header">
-            <h1 id="plctxt"><img alt="About Banner" id="aboutBanner" class="AbLg" src="images/banners/panoOne.png"></h1>
-        </div>
-        <div id="about">
-            <h1 id="plctxt">About CONTENT HERE</h1>
-        </div>
-        <div id="pbanner" class="header">
-            <h1 id="plctxt"><img alt="Profile Banner" id="profBanner" class="ProfLg" src="images/banners/TIBan-B.png"></h1>
-        </div>
-        <div id="profile">
-            <h1 id="plctxt">Profile CONTENT HERE</h1>
-            <p id="plctxt">Include LinkedIn/Resumé link somewhere.</p>
-        </div>
-        <div id="gallery">
-            <!-- /**** Original Script by Bryan Moats, Mike Dornseif, Griffin Moore, Andrea Austoni, Jack Hughes, Jeremy Fryc ****/ -> Source of Interactive
-                                                                                                                                                Gallery. -->
-            <div class="imban">
-
-
-            </div>
-
-            <div id="captionn">
-                <p class="link" id="plctxt">Did I mention my photography?</p>
-            </div>
-            <p class="ig-link" id="plctxt">
-                <a href="#gallery" onclick="progress();">view the full gallery <span id="engorgio">&#8640</span></a>
-            </p>
-        </div>
-        <div id="sbanner" class="header">
-            <h1 id="plctxt"><img alt="Stuff Banner" id="stuffBanner" class="StfLg" src="images/banners/stuffBanner.png"></h1>
-        </div>
-        <div id="stuff">
-            <h1 id="plctxt">Stuff CONTENT HERE</h1>
-        </div>
-        <div id="cbanner" class="header">
-            <img id="smedia" class="smedia" src="images/banners/smedia.JPG">
-        </div>
-        <div id="contact">
-            <div id="badgewrapper" class="badgewrapper">
-                <!-- The following SocialMedia badges were taken from Shutterstock. --->
-                <div id="badge1" class="fleft">
-                    <a href="https://www.facebook.com/tushar.iyer" id="fb-link">
-                        <img class="ibadg" id="fb" src="images/contact/facebook.png" onmouseover="this.src='images/contact/active/facebook-active.png'" onmouseout="this.src='images/contact/facebook.png'" width="40" height="40" title="facebook">
-                    </a>
-                </div>
-                <div id="badge2" class="fleft">
-                    <a href="https://twitter.com/TusharIyer08" id="tw-link">
-                        <img class="ibadg" id="tw" src="images/contact/twitter.png" onmouseover="this.src='images/contact/active/twitter-active.png'" onmouseout="this.src='images/contact/twitter.png'" width="40" height="40" title="twitter">
-                    </a>
-                </div>
-                <div id="badge3" class="fleft">
-                    <a href="https://plus.google.com/+TusharIyer/posts" id="g+-link">
-                        <img class="ibadg" id="g+" src="images/contact/googleplus.png" onmouseover="this.src='images/contact/active/googleplus-active.png'" onmouseout="this.src='images/contact/googleplus.png'" width="40" height="40" title="google+">
-                    </a>
-                </div>
-                <div id="badge4" class="fleft">
-                    <a href="https://www.linkedin.com/pub/tushar-iyer/97/b35/339" id="li-link">
-                        <img class="ibadg" id="li" src="images/contact/linkedin.png" onmouseover="this.src='images/contact/active/linkedin-active.png'" onmouseout="this.src='images/contact/linkedin.png'" width="40" height="40" title="linkedin">
-                    </a>
-                </div>
-                <div id="badge5" class="fleft">
-                    <a href="http://instagram.com/tiyer08/" id="inst-link">
-                        <img class="ibadg" id="inst" src="images/contact/instagram.png" onmouseover="this.src='images/contact/active/instagram-active.png'" onmouseout="this.src='images/contact/instagram.png'" width="40" height="40" title="instagram">
-                    </a>
-                </div>
-                <div id="badge6" class="fleft">
-                    <a href="https://www.youtube.com/c/TusharIyer" id="yt-link">
-                        <img class="ibadg" id="yt" src="images/contact/youtube.png" onmouseover="this.src='images/contact/active/youtube-active.png'" onmouseout="this.src='images/contact/youtube.png'" width="40" height="40" title="youtube">
-                    </a>
-                </div>
-                <div id="badge7" class="fleft">
-                    <a href="https://soundcloud.com/tushar-iyer" id="sc-link">
-                        <img class="ibadg" id="sc" src="images/contact/soundcloud.png" onmouseover="this.src='images/contact/active/soundcloud-active.png'" onmouseout="this.src='images/contact/soundcloud.png'" width="40" height="40" title="soundcloud">
-                    </a>
-                </div>
-                <div id="badge8" class="fleft">
-                    <a href="https://tushariyer.wordpress.com" id="wp-link">
-                        <img class="ibadg" id="pr" src="images/contact/wordpress.png" onmouseover="this.src='images/contact/active/wordpress-active.png'" onmouseout="this.src='images/contact/wordpress.png'" width="40" height="40" title="wordpress">
-                    </a>
-                </div>
-                <div id="badge9" class="fleft">
-                    <a href="https://github.com/tushariyer" id="git-link">
-                        <img class="ibadg" id="pr" src="images/contact/github.png" onmouseover="this.src='images/contact/active/github-active.png'" onmouseout="this.src='images/contact/github.png'" width="40" height="40" title="github">
-                    </a>
-                </div>
-                <div id="badge10" class="fleft">
-                    <a href="https://tushariyer.vsco.co/grid/1" id="vsco-link">
-                        <img class="ibadg" id="pr" src="images/contact/vsco.png" onmouseover="this.src='images/contact/active/vsco-active.png'" onmouseout="this.src='images/contact/vsco.png'" width="40" height="40" title="vsco">
-                    </a>
-                </div>
-            </div>
-            <div id="eform" class="eform" name="myform">
-                <h2 id="contactmessage" style="color: #ffffff;">Want to get in touch? Fill in the form.</h2>
-                <br>
-                <form name="signup" method="post" id="contactForm" name="details" action="MAILTO:tushariyer@gmail.com">
-                    <h3 id="detail_message" style="color: #ffffff;">Leave your details below, I'll get back to you soon.</h3>
-                    <br>
-                    <fieldset id="required">
-                        <legend id="UserInfo">Your Details</legend>
-                        <p id="firstName" class="fP">
-                            <label class="lbl">First Name</label>
-                            <input type="text" id="fN" name="FirstName" required>
-                        </p>
-                        <p id="lastName" class="fP">
-                            <label class="lbl">Last Name</label>
-                            <input type="text" id="lN" name="LastName" required>
-                        </p>
-                        <p id="email" class="fP">
-                            <label class="lbl">Email ID</label>
-                            <input type="email" id="email" name="Email" onchange="validateEmail()" required>
-                        </p>
-                        <p id="telNum" class="fP">
-                            <label class="lbl">Telephone No.</label>
-                            <input type="number" id="telnum" min="1000000000" name="Telephone-No." onkeypress='return event.charCode >= 48 && event.charCode
-                                                                                                                   <= 57' max-length="10">
-                        </p>
-                    </fieldset>
-                    <fieldset id="mostlyoptional">
-                        <legend id="moreInfo">Additional Information</legend>
-                        <p id="anymore?" class="fP">
-                            <label class="lbl">Comments/Questions</label>
-                            <textarea cols="30" rows="8" id="comment" name="Questions/Comments" wrap="hard"></textarea>
-                        </p>
-                    </fieldset>
-                    <!--Submit/Clear-->
-                    <div id="buttondiv">
-                        <input type="submit" class="button" name="submit" value="Submit">
-                        <input type="reset" class="button" name="reset" value="Clear Fields">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="footer" id="bottom">
-            <footer>
-                <h6 id="footercompany">
-		        T.I. Design &copy; 2015. All Rights Reserved. | 
-		            <a href="ToS.html">Terms of Use</a> | 
-		            <a href="privpol.html">Privacy Policy</a> | 
-		            <a href="sitefeedback.html">Site Feedback</a> | 
-		            <a href="map.html">SiteMap</a> |  
-                    <a href="sitelog.html">SiteLog</a> |  
-		            <a onclick="goAway();" href="#navbar" class="smoothScroll">back to Top</a> 
-		    </h6>
-            </footer>
-        </div>
-    </div>
-    
-    
-    
-    <!--THESE ARE SCRIPT LINKS FOR JAVASCRIPT AND JQUERY-->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <!---Sourced form DWuser.com--->
-    <script class="hideme" type="text/javascript" language="JavaScript" src="js/ctrl+f.js"></script>
+    <h1 id="loadText">Loading...</h1>
 </body>
 
 </html>
