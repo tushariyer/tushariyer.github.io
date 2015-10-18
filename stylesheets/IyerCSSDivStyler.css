@@ -212,7 +212,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #stuff {
     background-color: #1a1a1a;
 }
-
+#stContent{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #444444;
+}
 
 /*Common Standard*/
 
