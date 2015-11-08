@@ -1,102 +1,175 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <title>Tushar Iyer | Loading</title>
-
-    <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
 
     <meta charset="utf-8">
-    <style type="text/css">
-        body {
-            background-color: #1a1a1a;
-            padding: 250px;
-            margin: 0 auto;
-            text-align: center;
-            color: #333333;
-            font-family: Helvetica Nueue, Calibri, Helvetica, sans-serif;
-            font-size: 14px;
-        }
-        
-        #loadText {
-            padding-top: 20px;
-        }
-        
-        .sk-double-bounce {
-            width: 60px;
-            height: 60px;
-            position: relative;
-            margin: 40px auto;
-        }
-        
-        .sk-double-bounce .sk-child {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background-color: #2a77ff;
-            opacity: 0.6;
-            position: absolute;
-            top: 0;
-            left: 0;
-            -webkit-animation: sk-doubleBounce 2s infinite ease-in-out;
-            animation: sk-doubleBounce 2s infinite ease-in-out;
-        }
-        
-        .sk-double-bounce .sk-double-bounce2 {
-            -webkit-animation-delay: -1.0s;
-            animation-delay: -1.0s;
-        }
-        
-        @-webkit-keyframes sk-doubleBounce {
-            0%,
-            100% {
-                -webkit-transform: scale(0);
-                transform: scale(0);
-            }
-            50% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-            }
-        }
-        
-        @keyframes sk-doubleBounce {
-            0%,
-            100% {
-                -webkit-transform: scale(0);
-                transform: scale(0);
-            }
-            50% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-            }
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!--THESE ARE SCRIPT LINKS FOR JAVASCRIPT AND JQUERY-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
-    <!---Sourced form DWuser.com--->
+    <title>Tushar Iyer</title>
+    
+    <!--Created based off of the startbootstrap template: Grayscale-->
 
-    <script type="text/javascript" src="javascript/onClickPluginEvents.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <script type="text/javascript" src="javascript/preloader.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-    <script>
-        setTimeout(function () {
-            window.location = 'home.html';
-        }, 5000);
-    </script>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                      <span class="light">Tushar</span> Iyer
+                </a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Profile</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Gallery</a>
+                    </li><!-- 
 
-    <div class="sk-double-bounce">
-        <div class="sk-child sk-double-bounce1"></div>
-        <div class="sk-child sk-double-bounce2"></div>
-    </div>
-    <h1 id="loadText">Loading...</h1>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+ -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text"><br><br></p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About</h2>
+                <p>I'm Tushar Iyer. I love technology. I've been tinkering with computers since I was a child. I'm currently a 20 year old Computer Science student, but I work as a System Administrator for the University of Hartford's Math, Physics, and Computer Science department. I also work as an International Student Ambassador for the Red Key Society at the University of Hartford. </p>
+                <p>As a Student Ambassador, I am one of several ambassadors who interact with new incoming international students and help them prepare to move to campus by answering any questions or queries they may have. </p>
+                <p>I love to travel, and I have lived in multiple cities and countries. I hope to continue travelling post-graduation and would like to visit as many places as I can.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Profile</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Gallery</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h6 id="footercompany">
+                <span class="toUpper">T.I. D</span>esign &copy; 2015. All Rights Reserved. |
+                <a href="ToS.html">Terms of Use</a> |
+                <a href="privpol.html">Privacy Policy</a> |
+                <a href="sitefeedback.html">Site Feedback</a> |
+    	        <a href="map.html">SiteMap</a> |
+                <a href="sitelog.html">SiteLog</a> |
+                <a onclick="goAway();" href="#intro" class="smoothScroll">back to Top</a>
+            </h6>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
 
 </html>
