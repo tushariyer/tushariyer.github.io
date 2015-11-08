@@ -9,7 +9,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Calibri, Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     background-color: #1a1a1a;
 }
@@ -27,7 +27,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Calibri, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -67,7 +67,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #1a1a1a;
 }
 
@@ -91,7 +91,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #fff;    /*This was originally #fff to see links on intro*/
 }
 
 .navbar-custom .nav li a {
@@ -148,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/pictures/CharlesDeGaulleAirportGray.png) no-repeat bottom center scroll;
+    background: url(../img/pictures/CharlesDeGaulleAirportGray3.jpg) no-repeat bottom center scroll;
     background-color: #1a1a1a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,8 +160,6 @@ a:focus {
     display: table-cell;
     vertical-align: middle;
 }
-
-.brand-heading {}
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
@@ -300,7 +298,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
