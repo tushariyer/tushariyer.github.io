@@ -326,7 +326,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #2a77ff;
     outline: 0;
-    color: #000;
+    color: #fff;
     background-color: #2a77ff;
 }
 
