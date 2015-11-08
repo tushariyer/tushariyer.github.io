@@ -349,6 +349,13 @@ footer p {
     margin: 0;
 }
 
+#footercompany{
+    text-transform: lowercase;
+}
+.toUpper{
+    text-transform: uppercase;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
