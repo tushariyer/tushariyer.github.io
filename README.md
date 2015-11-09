@@ -24,27 +24,6 @@ By Tushar Iyer
 
 This repository is just to help me develop my own website. I can push changes from my laptop directly and view them live. It also enables a more thorough way to test the website on different devices.
 
+1:41 AM October 18th, 2015 - Site became live.
 
-Site update - Mk.IV in progress. Listed under /preview/ . It implements LESS along with CS and it is the first design to make use of Bootstrap 3. 
-
-Site Update - Implementation of Site design MkIII. MkII taken down. 1:41 AM October 18th, 2015
-SITE IS LIVE.
-
-Updates being worked on for SU-2.1 and associated patches:
- - Gallery Collage
- - Gallery Page
- 
-Updates being worked on for SU-2.1.1 and associated patches:
- - Image rendering
- - Image file size reduction
- - Data Collation
- - Citation of Plugins
- 
-Updates being worked on for SU-2.5 and associated patches [MAY NOT BE NECESSARY IF BOOTSTRAP WORKS]:
- - Website = Adaptable:
- -  Mobile Stylesheet
- -  Tablet Stylesheet
- 
-Updates being worked on for SU-2.8 and associated patches [Not necessary]:
- - Implementation of BootStrap [PROGRESS STARTED]
- - Implementation of JS, JQ (PHP?)
+Site Update 2.0 - Design Mk. IV is live. [November 8th, 2015 @ 8:00 PM.]
