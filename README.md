@@ -24,6 +24,6 @@ By Tushar Iyer
 
 This repository is just to help me develop my own website. I can push changes from my laptop directly and view them live. It also enables a more thorough way to test the website on different devices.
 
-1:41 AM October 18th, 2015 - Site became live.
+1:41 AM October 18th, 2015 - Site became live: http://tushariyer.co
 
 Site Update 2.0 - Design Mk. IV is live. [November 8th, 2015 @ 8:00 PM.]
