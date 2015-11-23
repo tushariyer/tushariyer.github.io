@@ -5385,17 +5385,17 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-    background-color: #222;
-    border-color: #080808
+    background-color: #ffffff; /*Originally #222*/
+    border-color: #333333; /*Originally #080808*/
 }
 
 .navbar-inverse .navbar-brand {
-    color: #9d9d9d
+    color: #1a1a1a;
 }
 
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover {
-    color: #fff;
+    color: #2a77ff;
     background-color: transparent
 }
 
@@ -5404,19 +5404,19 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #9d9d9d
+    color: #1a1a1a;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
+    color: #2a77ff;
     background-color: transparent
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
+    color: #2a77ff;
     background-color: #080808
 }
 
@@ -5448,7 +5448,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
+    color: #2a77ff;
     background-color: #080808
 }
 
@@ -5464,13 +5464,13 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-        color: #fff;
+        color: #2a77ff;
         background-color: transparent
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,
     .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
-        color: #fff;
+        color: #2a77ff;
         background-color: #080808
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,
@@ -5486,7 +5486,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-link:hover {
-    color: #fff
+    color: #2a77ff;
 }
 
 .navbar-inverse .btn-link {
@@ -5495,7 +5495,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .btn-link:focus,
 .navbar-inverse .btn-link:hover {
-    color: #fff
+    color: #2a77ff;
 }
 
 .navbar-inverse .btn-link[disabled]:focus,
@@ -7364,7 +7364,7 @@ button.close {
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .65) 0, rgba(0, 0, 0, .03) 100%); /*Originally 0.5 & 0.0001*/
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
@@ -7375,7 +7375,7 @@ button.close {
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .03) 0, rgba(0, 0, 0, .65) 100%); /*Originally 0.0001 & .5*/
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }

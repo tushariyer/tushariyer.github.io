@@ -10,8 +10,12 @@ body {
     width: 100%;
     height: 100%;
     font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-    background-color: #1a1a1a;
+    color: #1a1a1a; /*Was originally #fff*/
+    background-color: #e5e4e4; /*Was originally #1a1a1a*/
+}
+
+hr{
+    border: 1px solid #9b9b9b;
 }
 
 html {
@@ -91,7 +95,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;    /*This was originally #fff to see links on intro*/
+    color: #000;    /*This was originally #fff to see links on intro*/
 }
 
 .navbar-custom .nav li a {
@@ -117,7 +121,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(42, 119, 255, 0.5); /*This is the div indicator color*/
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -137,7 +141,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
-        background: #000000;
+        background: #fff; /*Collapsed Nav background, was originally black*/
     }
 }
 
@@ -147,9 +151,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #1a1a1a;
     background: url(../img/pictures/CharlesDeGaulleAirportGray3.jpg) no-repeat bottom center scroll;
-    background-color: #1a1a1a;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -189,7 +193,7 @@ a:focus {
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
-    box-shadow: 0px 0px 25px #888888;
+    box-shadow: 0px 0px 15px #888888; /*Was originally 25px*/
     font-size: 40px;
     color: #fff;
     background: 0 0;
@@ -307,7 +311,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid rgba(0, 0, 0, 0);
-    color: #fff;
+    color: #000; /*Was originally #fff*/
     background-color: transparent;
 }
 
@@ -317,6 +321,7 @@ a:focus {
     outline: 0;
     color: #fff;
     background-color: #2a77ff;
+    border-radius: 3px; /*Originally did not exist*/
 }
 
 ul.banner-social-buttons {
