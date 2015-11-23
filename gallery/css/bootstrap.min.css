@@ -5054,7 +5054,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: transparent;
+    background-color: #fff; /*Originally 'transparent'*/
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
@@ -5428,21 +5428,21 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #fff; /*Originally #333*/
 }
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #333
+    background-color: #fff; /*Originally #333*/
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #fff
+    background-color: #1a1a1a; /*Originally #fff*/
 }
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border-color: #101010
+    border-color: #101010;
 }
 
 .navbar-inverse .navbar-nav>.open>a,
