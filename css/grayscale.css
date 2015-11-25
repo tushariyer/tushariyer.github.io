@@ -95,7 +95,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #000;    /*This was originally #fff to see links on intro*/
+    color: #317cff;    /*This was originally #fff to see links on intro*/
 }
 
 .navbar-custom .nav li a {
@@ -141,7 +141,8 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
-        background: #fff; /*Collapsed Nav background, was originally black*/
+        background: #fff; /*Collapsed Nav background, was originally
+        black*/
     }
 }
 
@@ -191,11 +192,11 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #317cff;
     border-radius: 100%!important;
-    box-shadow: 0px 0px 15px #888888; /*Was originally 25px*/
+    box-shadow: 0px 0px 15px #005dff; /*Was originally 25px*/
     font-size: 40px;
-    color: #fff;
+    color: #317cff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
