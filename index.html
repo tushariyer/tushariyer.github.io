@@ -1,239 +1,586 @@
-<!--
-The MIT License (MIT)
-
-Copyright (c) Sat Nov 07 2015 Tushar Iyer
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
-
-
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Tushar Iyer</title>
-
+    
+    <!-- tab/favicon -->
     <!--<link rel="icon" href="img/icons/favicon.png" type="image/x-icon">-->
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/newIcons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/newIcons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/newIcons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/newIcons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/newIcons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/newIcons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/newIcons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/newIcons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/newIcons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/img/newIcons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/img/newIcons/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="/img/newIcons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/img/newIcons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/img/newIcons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/img/newIcons/manifest.json">
-    <link rel="mask-icon" href="/img/newIcons/safari-pinned-tab.svg" color="#2a77ff">
-    <link rel="shortcut icon" href="/img/newIcons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/newIcons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/newIcons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/newIcons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/newIcons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/newIcons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/newIcons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/newIcons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/newIcons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/newIcons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/images/newIcons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/newIcons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="assets/images/newIcons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/newIcons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/images/newIcons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/images/newIcons/manifest.json">
+    <link rel="mask-icon" href="assets/images/newIcons/safari-pinned-tab.svg" color="#2a77ff">
+    <link rel="shortcut icon" href="assets/images/newIcons/favicon.ico">
     
     
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="/img/newIcons/mstile-144x144.png">
-    <meta name="msapplication-config" content="/img/newIcons/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="assets/images/newIcons/mstile-144x144.png">
+    <meta name="msapplication-config" content="assets/images/newIcons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!--Created based off of the startbootstrap template: Grayscale-->
+    <!-- CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+    <link href="assets/css/animate.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
 
-    <!-- Grayscaled stylesheeet - General Stylesheet Edits -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <script src="assets/js/modernizr.custom.js"></script>
 
-    <!-- My Print Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/IyerCSSThemePrint.css" media="only print">
+    <style>
+        .set {
+            height: 100%;
+            width: 10%;
+        }
+    </style>
 
-    <!-- My Scroll Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/IyerCSS-Scrollbar.css">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Tushar</span> Iyer
-                </a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- This becomes the scrollbar after #about -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Profile</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Gallery</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<body>
 
-    <!-- Intro Division -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="brand-heading">
-                            <img src="img/pictures/Logo.png" alt="Logo">
-                        </div>
-                        <p class="intro-text">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                        </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Preloader -->
 
-    <!-- About Division -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About</h2>
-                <p>I'm Tushar Iyer. I love technology. I've been tinkering with computers since I was a child. I'm currently a 20 year old Computer Science student, but I work as a System Administrator for the University of Hartford's Math, Physics, and Computer Science department. I also work as an International Student Ambassador for the Red Key Society at the University of Hartford. </p>
-                <p>As a Student Ambassador, I am one of several ambassadors who interact with new incoming international students and help them prepare to move to campus by answering any questions or queries they may have. </p>
-                <p>I love to travel, and I have lived in multiple cities and countries. I hope to continue travelling post-graduation and would like to visit as many places as I can.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Profile Division -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Profile</h2>
-                    <p>I have completed two internships relating to Computer Science and Web Design. I am already able to use the skills I have learned both from my work and from my education in various projects.</p>
-                    <a href="https://www.linkedin.com/in/tushariyer" class="btn btn-default btn-lg">Visit My LinkedIn</a>
-                    <a href="downloads/Tushar%20Iyer%20%7C%20Resum%C3%A9.pdf" class="btn btn-default btn-lg" download>View My Résume</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery / Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Gallery</h2>
-                <p>One thing I love doing is taking photos. I publish some of my works to various journals online, but I have collected my works into a single gallery. Click below to visit the gallery.</p>
-                <a href="galleryLoad.html" class="btn btn-default btn-lg">Visit Gallery</a>
-                <hr>
-                <br>
-                <br>
-                <h2>Contact Me</h2>
-                <ul class="list-inline banner-social-buttons">
-                    <li class="noBorders">
-                        <a href="mailto:tiyer@tushariyer.co?Subject=Hello%20from%20your%20gallery" target="_top" class="btn btn-default btn-lg"><img src="img/contactMinimal/email.png" alt="Email" title="Email me" width="40"></a>
-                    </li>
-                    <li class="noBorders">
-                        <a href="https://twitter.com/TusharIyer08" class="btn btn-default btn-lg"><img src="img/contactMinimal/twitter.png" title="Tweet at me!" alt="Twitter" width="40"></a>
-                    </li>
-                    <li class="noBorders">
-                        <a href="https://github.com/tushariyer" class="btn btn-default btn-lg"><img src="img/contactMinimal/github.png" alt="Github" title="Check out my Github!" width="40"></a>
-                    </li>
-                    <li class="noBorders">
-                        <a href="https://www.linkedin.com/in/tushariyer" class="btn btn-default btn-lg"><img src="img/contactMinimal/linkedin.png" alt="LinkedIn" title="View my LinkedIn" width="40"></a>
-                    </li>
-                    <li class="noBorders">
-                        <a href="https://tushariyer.vsco.co/" class="btn btn-default btn-lg"><img src="img/contactMinimal/vsco.png" alt="VSCO" title="Some more of my photo work" width="40"></a>
-                    </li>
-                    <li class="noBorders">
-                        <a href="https://www.facebook.com/tushariyer08" class="btn btn-default btn-lg"><img src="img/contactMinimal/facebook.png" alt="Facebook" title="Facebook" width="40"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map">
-
+    <div id="preloader">
+        <div id="status"></div>
     </div>
 
-    <!-- Footer -->
-    <hr />
-    <footer>
-        <div class="container text-center">
-            <h6 id="footercompany">
-                <span class="toUpper">T.I. D</span>esign &copy; 2015. All Rights Reserved. |
-                <a href="ToS.html">Terms of Use</a> |
-                <a href="privpol.html">Privacy Policy</a> |
-                <a href="sitefeedback.html">Site Feedback</a> |
-    	        <a href="map.html">SiteMap</a> |
-                <a href="sitelog.html">SiteLog</a> |
-                <a href="#page-top" class="page-scroll">back to Top</a>
-            </h6>
+    <!-- Home start -->
+
+    <section id="home" class="pfblock-image screen-height">
+        <div class="home-overlay"></div>
+        <div class="intro">
+            <div class="start">Hello, my name is Tushar Iyer</div>
+
+            <div class="brand-heading">
+                <img src="assets/images/pictures/Logo.png" alt="Logo">
+            </div>
         </div>
+
+        <a href="#services">
+            <div class="scroll-down">
+                <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+            </div>
+        </a>
+
+    </section>
+
+    <!-- Home end -->
+
+    <!-- Navigation start -->
+
+    <header class="header">
+
+        <nav class="navbar navbar-custom" role="navigation">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img class="set" src="assets/images/pictures/LogoFlat.png"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#services">About</a></li>
+                        <li><a href="#skills">Profile</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- .container -->
+
+        </nav>
+
+    </header>
+
+    <!-- Navigation end -->
+
+    <!-- Services start -->
+
+    <section id="services" class="pfblock pfblock-gray">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <div class="pfblock-header wow fadeInUp">
+                        <h2 class="pfblock-title">About me</h2>
+                        <div class="pfblock-line"></div>
+                        <div class="pfblock-subtitle">
+                            I'm Tushar Iyer. I love technology. I've been tinkering with computers since I was a child. I love to travel, and I have lived in multiple cities and countries. I hope to continue travelling post-graduation and would like to visit as many places as I can.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-3">
+
+                    <div class="iconbox wow slideInLeft">
+                        <div class="iconbox-icon">
+                            <span class="icon-screen-desktop"></span>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Web Design</h3>
+                            <div class="iconbox-desc">
+                                I design and create websites for people. I started web design as a minor in my undergrad studies
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="iconbox wow slideInLeft">
+                        <div class="iconbox-icon">
+                            <span class="icon-cup"></span>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Programming</h3>
+                            <div class="iconbox-desc">
+                                Through Computer Science, I am versed in Java, Python, VB and several scripting languages
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="iconbox wow slideInRight">
+                        <div class="iconbox-icon">
+                            <span class="icon-graduation"></span>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Student</h3>
+                            <div class="iconbox-desc">
+                                I am a B.S. Computer Science student with a minor in Economics and Web Design &amp; Development
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+
+                    <div class="iconbox wow slideInRight">
+                        <div class="iconbox-icon">
+                            <span class="icon-briefcase"></span>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Work</h3>
+                            <div class="iconbox-desc">
+                                I work as a System Administrator for my University's CS department and as a Student Ambassador
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+
+    <!-- Services end -->
+
+    <!-- Skills start -->
+
+    <section class="pfblock pfblock-gray" id="skills">
+
+        <div class="container">
+
+            <div class="row skills">
+
+                <div class="row">
+
+                    <div class="col-sm-6 col-sm-offset-3">
+
+                        <div class="pfblock-header wow fadeInUp">
+                            <h2 class="pfblock-title">My Skills</h2>
+                            <div class="pfblock-line"></div>
+                            <div class="pfblock-subtitle">
+                                I have completed two internships relating to Computer Science and Web Design. I am already able to use the skills I have learned both from my work and from my education in various projects.
+                                
+                                <br><br>
+                                
+                                <a href="https://www.linkedin.com/in/tushariyer" class="btn btn-default btn-lg">Visit My LinkedIn</a>
+                                <a href="assets/downloads/Tushar%20Iyer%20%7C%20Resum%C3%A9.pdf" class="btn btn-default btn-lg" download>View My Résume</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- .row -->
+
+                <div class="col-sm-6 col-md-3 text-center">
+                    <span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">85</span>
+                    </span>
+                    <h3 class="text-center">Programming &amp; Logic</h3>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">90</span>
+                    </span>
+                    <h3 class="text-center">Web Design &amp; Creativity</h3>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">85</span>
+                    </span>
+                    <h3 class="text-center">Teamwork &amp; Project LEadership</h3>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">95</span>
+                    </span>
+                    <h3 class="text-center">Computer &amp; Network Administration</h3>
+                </div>
+
+            </div>
+            <!--End row -->
+
+        </div>
+
+    </section>
+
+    <!-- Skills end -->
+
+    <!-- Portfolio start -->
+
+    <section id="portfolio" class="pfblock">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <div class="pfblock-header wow fadeInUp">
+                        <h2 class="pfblock-title">My Work</h2>
+                        <div class="pfblock-line"></div>
+                        <div class="pfblock-subtitle">
+                            Here are some of the works I have produced through my internships and through my studies.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="https://github.com/tushariyer/systemCalls">
+                                <img style="width:99.9%;content-align:center;text-align:center;" src="assets/images/item-1.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>System <span>Calls</span></h2>
+                                    <p>A simple program that copies one file to another. Written in Java.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="https://github.com/tushariyer/dp-edit-hamming-distance">
+                                <img src="assets/images/item-2.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>Dynamic <span>Programming</span></h2>
+                                    <p>Dynamic scripting of hamming distance and edit distance. Written in Python.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="https://github.com/tushariyer/palindrome-checker">
+                                <img src="assets/images/third-item.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>Palindrome <span>Checker</span></h2>
+                                    <p>A simple web page with a palindrome checker. Designed in HTML, written in Javascript.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="#">
+                                <img src="assets/images/item-4.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>Javascript <span>Cookies</span></h2>
+                                    <p>A web page that keeps track of your last visit. Powered by Javascript.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="https://github.com/tushariyer/mips-instruction-set-4">
+                                <img src="assets/images/item-5.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>MIPS <span>Instruction</span></h2>
+                                    <p>A program that shows how computer instruction stores and manipulates data. Written in MIPS.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <a href="https://github.com/tushariyer/game-of-life-java">
+                                <img src="assets/images/item-6.jpg" alt="img01" />
+                                <figcaption>
+                                    <h2>Game of <span>Life</span></h2>
+                                    <p>A visual representation of Conway's Game of Life. Written in Java.</p>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- .container -->
+
+    </section>
+
+    <!-- Portfolio end -->
+
+    <!-- CallToAction start -->
+
+    <section class="calltoaction">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 col-lg-12">
+                    <h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
+                    <div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+                        I'm available for freelance projects.
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+                    <a href="#contact" class="btn btn-lg">Hire Me</a>
+                </div>
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+
+    <!-- CallToAction end -->
+
+    <!-- Gallery start -->
+
+    <section id="testimonials" class="pfblock pfblock-gray">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div style="content-align:center; text-align:center;" class="col-lg-8 col-lg-offset-2">
+                        <h2>Gallery</h2>
+                        <p>One thing I love doing is taking photos. I publish some of my works to various journals online, but I have collected my works into a single gallery. Click below to visit the gallery.</p>
+                        <a href="galleryLoad.html" class="btn btn-default btn-lg">Visit Gallery</a>
+                        <br><br>
+                        <hr />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- .row -->
+    </section>
+
+    <!-- Gallery end -->
+
+
+    <!-- Contact start -->
+
+    <section id="contact" class="pfblock">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <div class="pfblock-header">
+                        <h2 class="pfblock-title">Drop me a line</h2>
+                        <div class="pfblock-line"></div>
+                        <div class="pfblock-subtitle">
+                            Send me a message below, or email me directly at tiyer@tushariyer.co
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <form id="contact-form" role="form">
+                        <div class="ajax-hidden">
+                            <div class="form-group wow fadeInUp">
+                                <label class="sr-only" for="c_name">Name</label>
+                                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+                            </div>
+
+                            <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+                                <label class="sr-only" for="c_email">Email</label>
+                                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+                            </div>
+
+                            <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send</button>
+                        </div>
+                        <div class="ajax-response"></div>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </section>
+
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+
+    <hr />
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/tushariyer08" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/TusharIyer08" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/tiyer08/" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/tushariyer" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/tushariyer" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-github"></i></a></li>
+                        <li><a href="mailto:tiyer@tushariyer.co?Subject=Hello%20from%20your%20website" target="_top" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+
+
+                    <h6 id="footercompany">
+                        <span><span class="toUpper">T.I. D</span>esign &copy; 2015. All Rights Reserved. |</span>
+                        <a href="ToS.html">Terms of Use</a> |
+                        <a href="privpol.html">Privacy Policy</a> |
+                        <a href="sitefeedback.html">Site Feedback</a> |
+                        <a href="map.html">SiteMap</a> |
+                        <a href="sitelog.html">SiteLog</a>
+                    </h6>
+
+                </div>
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- Footer end -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Scroll to top -->
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <div class="scroll-up">
+        <a href="#home"><i class="fa fa-angle-up"></i></a>
+    </div>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <!-- Scroll to top end-->
+
+    <!-- Javascript files -->
+
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 </body>
 
