@@ -375,7 +375,7 @@ textarea.form-control {
 	top: 50%;
 	left: 0;
 	text-align: center;
-    color: #2a77ff;
+    color: #86b2ff;
 	-webkit-transform: translate(0%, -50%);
 	   -moz-transform: translate(0%, -50%);
 		-ms-transform: translate(0%, -50%);
@@ -672,7 +672,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/tushar-preloader.gif);
+	background-image: url(../images/preloader-tushar.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
