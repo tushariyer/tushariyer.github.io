@@ -50,6 +50,9 @@
     <link href="assets/css/IyerCSS-Scrollbar.css" rel="stylesheet" media="screen">
     <link href="assets/css/IyerCSSThemePrint.css" rel="stylesheet" media="print">
     
+    <!-- Animated header -->
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    
     <!-- Modernizr -->
     <script src="assets/js/modernizr.custom.js"></script>
 
@@ -73,7 +76,8 @@
     <!-- Home start -->
 
     <section id="home" class="pfblock-image screen-height">
-        <div class="home-overlay"></div>
+        <div id="large-header" class="home-overlay"></div>
+        <canvas id="demo-canvas"></canvas>
         <div class="intro">
             <div class="start"><span>Hello, my name is Tushar Iyer</span></div>
 
@@ -574,7 +578,11 @@
     <!-- Scroll to top end-->
 
     <!-- Javascript files -->
-
+    <script src="assets/js/TweenLite.min.js"></script>
+    <script src="assets/js/EasePack.min.js"></script>
+    <script src="assets/js/demo-1.js"></script>
+    
+    <!--More JS -->
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.parallax-1.1.3.js"></script>
